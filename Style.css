@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: pink;
+}
+tbody tr:nth-child(odd){
+    background-color: grey;
+}
+.osszevont{
+    background-color: red;
+}
+@media screen and (max-width:500xp){
+    article {
+        overflow-x: scroll;
+    }
+}
